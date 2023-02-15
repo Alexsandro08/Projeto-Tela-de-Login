@@ -1,2 +1,48 @@
 @charset "UTF-8";
 
+/*Mobile first*/
+
+
+*{
+ font-family:Verdana, sans-serif;
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top, #189fd4, white);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#tela{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c5fffc;
+    width: 300px;
+    height: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.589);
+}
+
+#tela > #imagem{
+    display: block;
+    background: black url(../imagens/80_cmVtb3RlX3dvcmtpbmctMDg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+h1{
+    text-align: center;
+}
+
+#formu{
+    display: block;
+    padding: 10px;
+}
