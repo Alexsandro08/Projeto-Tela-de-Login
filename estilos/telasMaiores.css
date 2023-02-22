@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:768px) {
+    #tela{
+        width: 100%
+     
+    }
+   #tela > #imagem{
+   float: left;
+   width: 55%;
+   height: 100%;
+
+        
+       
+    }
+    #formu{
+        float: right;
+        width: 45%;
+    }
+    .container > input{
+        background-color: #b7e1f196;
+        font-size: 1em;
+        text-align: left;
+        border-radius: 7px;
+        width: 60%;
+        
+       
+    }
+    
+}
+#formu > p{
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width:992px) {
+    #tela{
+        width: 950px;
+    }
+    #tela > #imagem{
+        float: left;
+        width: 50%;
+    }
+    #formu{
+        float: right;
+        width: 50%;
+    }
+    #formu > p{
+        padding-bottom: 30px;
+    }
+    .container > input{
+        background-color: #b7e1f196;
+        font-size: 1em;
+        text-align: left;
+        border-radius: 7px;
+        width: 60%;
+        
+       
+    }
+    
+}

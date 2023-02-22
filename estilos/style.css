@@ -22,27 +22,102 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #c5fffc;
+    background-color: #4198bb52;
     width: 300px;
     height: 600px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.589);
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
 }
 
 #tela > #imagem{
     display: block;
-    background: black url(../imagens/80_cmVtb3RlX3dvcmtpbmctMDg.jpg);
+    background: black url(../imagens/login.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 255px;
 }
 
 h1{
     text-align: center;
+    margin-bottom: 15px;
 }
+
 
 #formu{
     display: block;
     padding: 10px;
+}
+#mail{
+    font-size: 22px;
+    color: black;
+}
+
+#sen{
+    font-size: 22px;
+    color: black;
+}
+label{
+    color: black;
+    font-weight: bolder;
+    width: 100%;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width:20vw;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 7px;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+
+}
+
+
+
+.btn:hover{
+    background-color: rgba(224, 222, 222, 0.664);
+    
+}
+.btn2{
+    
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+   
+    
+}
+.btn2:hover{
+    text-decoration: underline;
+}
+#es{
+    font-size: 21px;
+    color: black
+    
+}
+
+.container > input{
+    background-color: #b7e1f196;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 7px;
+    width: 60%;
+    padding: 3px;
+    
+   
+}
+
+#isenha{
+    margin-top: 10px;
+    
+}
+
+.container > input:focus{
+    background-color: white;
 }

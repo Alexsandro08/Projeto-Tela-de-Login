@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="shortcut icon" href="./imagens/user.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/telasMaiores.css">
     <title>Tela login</title>
 </head>
 <body>
@@ -16,10 +18,25 @@
             </div>
 
             <div id="formu">
-                <h1><strong>LOGIN</strong></h1>
-                <p>Faça login para acessar sua conta</p>
-                <form action="login.php" method="post"></form>
-
+                <h1><strong>Login</strong></h1>
+                <p>Faça login para acessar sua conta.</p>
+                <form autocomplete="on">
+                <div class="container">
+                    <label for="ilogin">E-mail: </label>
+                    <input type="email" name="login" id="ilogin"placeholder="Digite seu e-mail" autocomplete="email" required>
+                    <i id="mail" class="material-symbols-outlined">Email</i>
+             
+                </div>
+                <div class="container">
+                    <label for="isenha">Senha: </label>
+                    <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" required minlength="10" maxlength="20">
+                    <i id="sen" class="material-symbols-outlined">lock</i>
+                </div>
+                <button type="submit" value="Entrar" class="btn"><strong>Entrar</strong></button>
+                <a href="#" class="btn2">Esqueci a Senha <i id="es" class="material-symbols-outlined">outgoing_mail</i></a> 
+               
+                   
+            </form>
             </div>
         </section>
     
